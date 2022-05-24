@@ -1,0 +1,201 @@
+/* Reseteo de estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Inserción de fuentes locales */
+
+@font-face {
+    font-family: caredrock;
+    src: url(../fuentes/caredrock/otf/CaredrockInline.otf)
+}
+
+@font-face {
+    font-family: brewery;
+    src: url(../fuentes/local-brewery-sans/LocalBrewerySans.ttf)
+}
+
+/* Estilos del nav */
+
+.header__logo--img {
+    height: 6rem;
+}
+
+.menu-item li a,
+.menu-item li a:link,
+.menu-item li a:visited {
+    font-family: brewery;
+    font-size: 1.8rem;
+}
+
+/* Estilos del footer */
+
+.footer__logo {
+    width: 20rem;
+    height: auto;
+}
+
+.footer__fabrica--subtitulo {
+    font-family: brewery;
+    font-size: 3.125rem;
+}
+
+.footer__fabrica ul {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.25rem;
+}
+
+.footer__contacto--subtitulo {
+    font-family: brewery;
+    font-size: 3.125rem;
+}
+
+.footer__contacto a img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer__derechos {
+    font-family: caredrock;
+}
+
+
+/* Estilos para la pagina HOME */
+/* Estilos para el main */
+
+.imain__presentacion--subtitulo {
+    font-family: brewery;
+    font-size: 5vw;
+}
+
+.imain__presentacion--parrafo {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.imain__catalogo--subtitulo {
+    font-family: brewery;
+    font-size: 5.2vw;
+}
+
+.imain__catalogo figure a img {
+    height: 34.5rem;
+    width: 20rem;
+}
+
+.imain__clubValle--subtitulo {
+    font-family: brewery;
+    font-size: 5.2vw;
+}
+
+/* Query para tablets verticales */
+
+@media screen and (max-width:992px) {
+    /* Estilos para el footer */
+
+    .footer__logo {
+        width: 35vw;
+        height: auto;
+    }
+
+    .footer__fabrica--subtitulo {
+        font-size: 4.5vw;
+    }
+
+    .footer__fabrica ul {
+        font-size: 2.2vw;
+    }
+
+    .footer__contacto--subtitulo {
+        font-size: 4.5vw;
+    }
+
+    .footer__contacto a img {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .footer__derechos {
+        font-size: 2.5vw;
+    }
+
+    /* Estilos para la pagina HOME */
+    /* Estilos para el main */
+
+    .imain__presentacion--subtitulo {
+        font-size: 7vw;
+    }
+
+    .imain__presentacion--parrafo {
+        font-size: 2.7vw;
+    }
+
+    .imain__catalogo--subtitulo {
+        font-size: 7vw;
+    }
+
+    .imain__catalogo figure a img {
+        height: 48vw;
+        width: 28vw;
+    }
+
+    .imain__clubValle--subtitulo {
+        font-size: 7vw;
+    }
+}
+
+/* Query para nav */
+
+@media screen and (max-width:768px) {
+    /* Estilos del nav */
+
+    .header__logo--img {
+        height: 4rem;
+    }
+
+}
+
+/* Query para celulares */
+
+@media screen and (max-width:576px) {
+    /* Estilos para el footer */
+
+    .footer__logo {
+        width: 60vw;
+    }
+
+    .footer__fabrica--subtitulo {
+        font-size: 6.5vw;
+    }
+
+    .footer__fabrica ul {
+        font-size: 3.5vw;
+    }
+
+    .footer__contacto--subtitulo {
+        font-size: 6.5vw;
+    }
+
+    .footer__contacto a img {
+        width: 3.2vw;
+        height: 3.2vw;
+    }
+
+    .footer__derechos {
+        font-size: 3.5vw;
+    }
+
+    /* Estilos para la pagina HOME */
+    /* Estilos para el main */
+
+    .imain__catalogo figure a img {
+        height: 60vw;
+        width: 35vw;
+    }
+
+}

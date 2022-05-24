@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Link a CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Inserción de favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Fuente de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <title>Home | Valle de Lerma</title>
+</head>
+
+<body class="ibody bg-dark">
+
+    <header class="border-bottom border-danger border-4 sticky-top">
+
+        <nav class="navbar navbar-expand-md navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/favicon.png" alt="logo valle de lerma"
+                        class="header__logo--img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon btn btn-light"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-item">
+                        <li class="nav-item p-3">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link active text-light" aria-current="page"
+                                href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link active text-light" aria-current="page"
+                                href="pages/cervezas.html">Cervezas</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link active text-light" href="pages/club-vdl.html">Club</a>
+                        </li>
+                        <li class="nav-item p-3">
+                            <a class="nav-link active text-light" href="pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+
+    </header>
+
+    <main class="imain bg-dark border-bottom border-danger border-4">
+        <div class="container-fluid">
+            <!-- Imagen principal de la pagina-->
+            <figure class="row imain__figure">
+                <img src="img/vdl.jpg" alt="Valle de Lerma" class="img-fluid col-12 imain__figure--foto1">
+            </figure>
+
+            <!-- Sub-bloque de descripción y presentación-->
+            <section class="row imain__presentacion">
+
+                <figure class="col-sm-12 col-md-12 col-lg-6 imain__presentacion--foto">
+                    <img src="img/valle.jpg" alt="Los valles de Salta" class="img-fluid">
+                </figure>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 contaner-fluid imain__presentacion--texto">
+
+                    <div class="row">
+                        <h2 class="col-12 text-center text-white pt-2 imain__presentacion--subtitulo">Valle de Lerma
+                        </h2>
+                    </div>
+
+                    <div class="row imain__presentacion--parrafo">
+                        <p class="col-12 pt-lg-5 text-center text-white">
+                            El Valle de Lerma es un amplio valle que se extiende hacia el oeste y hacia el sur de la
+                            ciudad de Salta.
+                            Es una zona de pequeños pueblos, casi todos muy antiguos, con interesantes casas coloniales
+                            y grandes fincas.
+                            Predominan las montañas y cerros teñidos de verde por la vegetación, y ríos que bordean y
+                            dan forma a un hermoso paisaje.
+                            Con esa belleza intrínseca, nace desde estos valles nuestra cerveza, manteniendo dentro de
+                            sí aromas y sabores de una región tan linda como sorprendente.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sub-bloque de catálogo rápido-->
+            <section class="row imain__catalogo">
+
+                <h2 class="col-12 text-center py-3 imain__catalogo--subtitulo">
+                    <a href="pages/cervezas.html" class="link-light text-decoration-none">Nuestras cervezas de linea</a>
+                </h2>
+
+                <figure
+                    class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center imain__catalogo--cervezas-kolsch">
+                    <a href="pages/cervezas.html"><img src="img/kolsch.png" alt="Cerveza kolsch" title="Kölsch"
+                            class="img-fluid rounded-4"></a>
+                </figure>
+                <figure
+                    class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center imain__catalogo--cervezas-irish">
+                    <a href="pages/cervezas.html"><img src="img/irish.png" alt="Cerveza irish red ale"
+                            title="Irish Red Ale" class="img-fluid rounded-4"></a>
+                </figure>
+                <figure
+                    class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center imain__catalogo--cervezas-porter">
+                    <a href="pages/cervezas.html"><img src="img/porter.png" alt="Cerveza porter" title="Porter"
+                            class="img-fluid rounded-4"></a>
+                </figure>
+                <figure
+                    class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center imain__catalogo--cervezas-trigo">
+                    <a href="pages/cervezas.html"><img src="img/trigo.png" alt="Cerveza de trigo" title="Weissbier"
+                            class="img-fluid rounded-4"></a>
+                </figure>
+
+            </section>
+
+            <!-- Sub-bloque de acceso a club-->
+            <section class="row imain__clubValle">
+
+                <h2 class="col-12 text-center py-4 imain__clubValle--subtitulo">
+                    <a href="pages/club-vdl.html" class="link-light text-decoration-none">Club Valle de Lerma</a>
+                </h2>
+
+                <figure class="col-12 imain__clubValle--img">
+                    <a href="pages/club-vdl.html"><img src="img/club.jpg" alt="Club valle de lerma"
+                            class="img-fluid"></a>
+                </figure>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer bg-dark">
+
+        <section class="footer__arriba d-flex justify-content-center">
+            <img src="img/logoV.png" alt="Logo institucional" class="footer__logo img-fluid">
+        </section>
+
+        <section class="footer__bajo d-flex flex-column align-items-center flex-md-row justify-content-md-between">
+
+            <!-- Sub-bloque de información de fábrica-->
+            <div class="footer__fabrica">
+                <h2 class="footer__fabrica--subtitulo text-white ms-2">Fabrica</h2>
+                <ul class="list-unstyled">
+                    <li class="text-white ms-2">Calle O'Higgins 1120</li>
+                    <li class="text-white ms-2">Ciudad de Salta</li>
+                    <li class="text-white ms-2">Argentina</li>
+                </ul>
+            </div>
+
+            <!-- Sub-bloque de información de contacto-->
+            <div class="footer__contacto">
+                <h2 class="footer__contacto--subtitulo text-white me-2 mt-5 mt-sm-0">Contacto</h2>
+                <div class="d-flex justify-content-evenly me-2">
+                    <a href="https://www.facebook.com/cervezavalledelerma" target="_blank"><img
+                            src="img/facebook-icono.png" alt="Seguínos en facebook"></a>
+                    <a href="https://www.instagram.com/cervezavalledelerma/" target="_blank"><img
+                            src="img/Instagram-icono.png" alt="Seguínos en instagram" class="mx-3"></a>
+                    <a href="https://wa.me/543875793306" target="_blank"><img src="img/whatsapp-icono.png"
+                            alt="Contactanos por WhatsApp"></a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Derechos-->
+        <h2 class="footer__derechos text-center text-white pt-3">2022. Cerveza Valle de Lerma. Todos los derechos reservados.
+        </h2>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
