@@ -193,9 +193,26 @@
     /* Estilos para la pagina HOME */
     /* Estilos para el main */
 
+    .imain__presentacion--subtitulo {
+        font-size: 9vw;
+    }
+
+    .imain__presentacion--parrafo {
+        font-size: 4.5vw;
+        margin: 0 10vw;
+    }
+
+    .imain__catalogo--subtitulo {
+        font-size: 9vw;
+    }
+
     .imain__catalogo figure a img {
         height: 60vw;
         width: 35vw;
+    }
+
+    .imain__clubValle--subtitulo {
+        font-size: 9vw;
     }
 
 }
